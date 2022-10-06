@@ -26,14 +26,19 @@ imshow(img_despl)
 
 %% Escalamiento
 
-%img_esc = imresize(img, 3, "bicubic");      %Metodo 1 - Factor de escala
+img_esc = imresize(img, 3, "bicubic");      %Metodo 1 - Factor de escala
 
 
 
 
 %% Escalamiento (Columnas y renglones)
 
-img_esc = imresize(img,[500, 1000]);      %Metodo 2 - Factor de escala columnas y renglones (nearest x defecto)
+%img_esc = imresize(img,[500, 1000]);      %Metodo 2 - Factor de escala columnas y renglones (nearest x defecto)
 
 figure(3)
 imshow(img_esc)
+
+
+%% Inclinacion
+
+
